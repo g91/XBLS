@@ -1,0 +1,39 @@
+﻿Build started 1/21/2020 8:25:37 AM.
+     1>Project "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\HVCleaner\HVCleaner.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release_LTCG\cHVCleaner.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I..\xkelib\ /Zi /nologo /W3 /WX- /Ox /Os /GL /D NDEBUG /D _XBOX /D LTCG /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yc"StdAfx.h" /Fp"\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\HVCleaner\Release_LTCG\cHVCleaner.pch" /Fo"Release_LTCG\\" /Fd"Release_LTCG\vc100.pdb" /TP stdafx.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         stdafx.cpp
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I..\xkelib\ /Zi /nologo /W3 /WX- /Ox /Os /GL /D NDEBUG /D _XBOX /D LTCG /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"StdAfx.h" /Fp"\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\HVCleaner\Release_LTCG\cHVCleaner.pch" /Fo"Release_LTCG\\" /Fd"Release_LTCG\vc100.pdb" /TP HVCleaning.cpp HVCleaner.cpp HvxCalls.cpp Utilities.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         HVCleaning.cpp
+     1>HVCleaning.cpp(335): warning C4172: returning address of local variable or temporary
+         HVCleaner.cpp
+         HvxCalls.cpp
+         Utilities.cpp
+     1>Utilities.cpp(437): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>Utilities.cpp(776): warning C4244: '=' : conversion from 'long' to 'BYTE', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\HVCleaner\Release_LTCG\cHVCleaner.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\xkelib\ xapilib.lib d3d9ltcg.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3ltcg.lib x3daudioltcg.lib xmcoreltcg.lib vcomp.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\HVCleaner\Release_LTCG\cHVCleaner.pdb" /STACK:"262144","262144" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /IMPLIB:"\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\HVCleaner\Release_LTCG\cHVCleaner.lib" Release_LTCG\HVCleaning.obj
+         Release_LTCG\HVCleaner.obj
+         Release_LTCG\HvxCalls.obj
+         Release_LTCG\stdafx.obj
+         Release_LTCG\Utilities.obj /XEX:NO
+         Generating code
+     1>\\10.0.0.25\share\xbox\hvcleaner\hvcleaner\hvcleaner\hvcleaner.cpp(432): warning C4700: uninitialized local variable 'pSalt' used
+         Finished generating code
+       ImageXex:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\HVCleaner\Release_LTCG\cHVCleaner.xex" "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\HVCleaner\Release_LTCG\cHVCleaner.exe" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.21256.17
+         (c)2012 Microsoft Corporation. All rights reserved.
+         
+       FinalizeBuildStatus:
+         Deleting file "Release_LTCG\cHVCleaner.unsuccessfulbuild".
+         Touching "Release_LTCG\cHVCleaner.lastbuildstate".
+     1>Done Building Project "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\HVCleaner\HVCleaner.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:29.94

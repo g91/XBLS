@@ -1,0 +1,11 @@
+C:\code\API\bin\Release\API 2.1.exe.config
+C:\code\API\bin\Release\API 2.1.exe
+C:\code\API\bin\Release\API 2.1.pdb
+C:\code\API\obj\Release\API 2.1.exe
+C:\code\API\obj\Release\API 2.1.pdb
+C:\code\WebAPI\bin\Release\API 2.1.exe.config
+C:\code\WebAPI\bin\Release\API 2.1.exe
+C:\code\WebAPI\bin\Release\API 2.1.pdb
+C:\code\WebAPI\obj\Release\API 2.0.csprojAssemblyReference.cache
+C:\code\WebAPI\obj\Release\API 2.1.exe
+C:\code\WebAPI\obj\Release\API 2.1.pdb

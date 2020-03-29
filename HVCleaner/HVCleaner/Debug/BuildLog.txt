@@ -1,0 +1,31 @@
+﻿Build started 1/1/2020 11:10:44 PM.
+     1>Project "C:\Users\bob\Desktop\HVCleaner\HVCleaner\HVCleaner\HVCleaner.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\HVCleaner.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I..\xkelib /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _XBOX /GF- /Gm /MTd /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"StdAfx.h" /Fp"C:\Users\bob\Desktop\HVCleaner\HVCleaner\HVCleaner\Debug\HVCleaner.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP HVCleaning.cpp Utilities.cpp /callcap /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         Utilities.cpp
+     1>Utilities.cpp(437): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>Utilities.cpp(776): warning C4244: '=' : conversion from 'long' to 'BYTE', possible loss of data
+         HVCleaning.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bob\Desktop\HVCleaner\HVCleaner\HVCleaner\Debug\HVCleaner.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\xkelib xapilibd.lib d3d9d.lib d3dx9d.lib xgraphicsd.lib xboxkrnl.lib xnetd.lib xaudiod2.lib xactd3.lib x3daudiod.lib xmcored.lib xbdm.lib vcompd.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\bob\Desktop\HVCleaner\HVCleaner\HVCleaner\Debug\HVCleaner.pdb" /STACK:"262144","262144" /TLBID:1 /IMPLIB:"C:\Users\bob\Desktop\HVCleaner\HVCleaner\HVCleaner\Debug\HVCleaner.lib" Debug\HVCleaning.obj
+         Debug\HVCleaner.obj
+         Debug\HvxCalls.obj
+         Debug\stdafx.obj
+         Debug\Utilities.obj /XEX:NO
+       ImageXex:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"C:\Users\bob\Desktop\HVCleaner\HVCleaner\HVCleaner\Debug\HVCleaner.xex" "C:\Users\bob\Desktop\HVCleaner\HVCleaner\HVCleaner\Debug\HVCleaner.exe" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.21256.17
+         (c)2012 Microsoft Corporation. All rights reserved.
+         
+       FinalizeBuildStatus:
+         Deleting file "Debug\HVCleaner.unsuccessfulbuild".
+         Touching "Debug\HVCleaner.lastbuildstate".
+     1>Done Building Project "C:\Users\bob\Desktop\HVCleaner\HVCleaner\HVCleaner\HVCleaner.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.51

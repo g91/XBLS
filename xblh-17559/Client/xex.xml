@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xex>
+	<format>
+		<compressed/>
+	</format>
+	
+	<mediatypes>
+		<allpackages/>
+	</mediatypes>
+	
+	<gameregion>
+		<all/>
+	</gameregion>
+	
+	<sysdll/>
+	<version major="0x00" minor="0x00" build="0x00" qfe="0x00"/>.
+	<mfgmode mode = "aware"/>
+	<baseaddr addr="0x91BF0000"/>
+</xex>

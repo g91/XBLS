@@ -1,0 +1,9 @@
+﻿Build started 12/20/2019 2:57:07 PM.
+     1>Project "C:\Users\bob\Desktop\XeRSA\XeRSA\XeRSA.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(511,5): error MSB8008: Specified platform toolset (v141) is not installed or invalid. Please make sure that a supported PlatformToolset value is selected.
+     1>Done Building Project "C:\Users\bob\Desktop\XeRSA\XeRSA\XeRSA.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.00

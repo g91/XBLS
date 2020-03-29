@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xex>
+  <baseaddr addr="0x90B00000"/>
+  <section file="notify.xzp" name="816ED6E0" memory="RO"/>
+  <sysdll/>
+  <exportcontainer name="Stealthy.def"/>
+  <format>
+    <compressed/>
+  </format>
+  <mediatypes>
+    <default/>
+    <allpackages/>
+  </mediatypes>
+  <gameregion>
+    <all/>
+  </gameregion>
+  <titleid id="0x00090002"/>
+  <version major="2" minor="0" build="0x4488" qfe="0"/>
+</xex>

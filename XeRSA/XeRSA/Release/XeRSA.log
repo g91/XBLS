@@ -1,0 +1,42 @@
+﻿Build started 12/21/2019 1:54:14 AM.
+     1>Project "C:\Users\bob\Desktop\XeRSA\XeRSA\XeRSA.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "Release\XeRSA.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D XERSA_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\XeRSA.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt XeRSA.cpp
+         XeRSA.cpp
+     1>XeRSA.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>XeRSA.cpp(92): warning C4018: '<' : signed/unsigned mismatch
+     1>XeRSA.cpp(125): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>XeRSA.cpp(143): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>XeRSA.cpp(156): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>XeRSA.cpp(189): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>XeRSA.cpp(193): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>XeRSA.cpp(246): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>XeRSA.cpp(249): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>XeRSA.cpp(308): warning C4244: 'initializing' : conversion from 'DWORD' to 'BYTE', possible loss of data
+     1>XeRSA.cpp(386): warning C4172: returning address of local variable or temporary
+     1>XeRSA.cpp(405): warning C4172: returning address of local variable or temporary
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bob\Desktop\XeRSA\Release\XeRSA.dll" /INCREMENTAL:NO /NOLOGO XeCrypt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\XeRSA.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\bob\Desktop\XeRSA\Release\XeRSA.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bob\Desktop\XeRSA\Release\XeRSA.lib" /MACHINE:X86 /DLL Release\XeRSA.res
+         Release\stdafx.obj
+         Release\XeRSA.obj
+         XeCrypt.lib /NODEFAULTLIB:LIBCMT.lib 
+            Creating library C:\Users\bob\Desktop\XeRSA\Release\XeRSA.lib and object C:\Users\bob\Desktop\XeRSA\Release\XeRSA.exp
+         Generating code
+         Finished generating code
+         XeRSA.vcxproj -> C:\Users\bob\Desktop\XeRSA\Release\XeRSA.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\bob\Desktop\XeRSA\Release\XeRSA.dll;#2" /manifest Release\XeRSA.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\XeRSA.unsuccessfulbuild".
+         Touching "Release\XeRSA.lastbuildstate".
+     1>Done Building Project "C:\Users\bob\Desktop\XeRSA\XeRSA\XeRSA.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.85

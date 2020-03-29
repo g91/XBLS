@@ -1,0 +1,24 @@
+﻿Build started 1/21/2020 8:14:43 AM.
+     1>Project "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\xkelib\xkelib.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\Build\xkelib\Release21256.0\Intermediate\xkelib.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\Build\xkelib\Release21256.0\Intermediate\xkelib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         Description: creating import libs
+         del "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\Build\xkelib\Release21256.0\xkelib.lib" "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\Build\xkelib\Release21256.0\xkelib.exp"
+         lib /def:kernel\kernelext21256.0.def /def:xam\xamext21256.0.def /MACHINE:PPCBE /OUT:"\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\Build\xkelib\Release21256.0\xkelib.lib"
+         
+         :VCEnd
+         Microsoft (R) Library Manager Version 10.00.11886.00
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+            Creating library \\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\Build\xkelib\Release21256.0\xkelib.lib and object \\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\Build\xkelib\Release21256.0\xkelib.exp
+       FinalizeBuildStatus:
+         Deleting file "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\Build\xkelib\Release21256.0\Intermediate\xkelib.unsuccessfulbuild".
+         Touching "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\Build\xkelib\Release21256.0\Intermediate\xkelib.lastbuildstate".
+     1>Done Building Project "\\10.0.0.25\Share\xbox\HVCleaner\HVCleaner\xkelib\xkelib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

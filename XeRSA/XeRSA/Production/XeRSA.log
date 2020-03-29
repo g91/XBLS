@@ -1,0 +1,34 @@
+﻿Build started 12/24/2019 3:29:47 AM.
+     1>Project "C:\Users\bob\Desktop\ghidra\Code\XeRSA\XeRSA\XeRSA.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Touching "Production\XeRSA.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Production\\" /Fd"Production\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt XeRSA.cpp
+         XeRSA.cpp
+     1>XeRSA.cpp(466): error C2065: 'IMAGE_XEX_HEADER' : undeclared identifier
+     1>XeRSA.cpp(466): error C2065: 'currModuleHeader' : undeclared identifier
+     1>XeRSA.cpp(466): error C2065: 'IMAGE_XEX_HEADER' : undeclared identifier
+     1>XeRSA.cpp(466): error C2059: syntax error : ')'
+     1>XeRSA.cpp(467): error C2065: 'currModuleHeader' : undeclared identifier
+     1>XeRSA.cpp(468): error C2065: 'XEX_SECURITY_INFO' : undeclared identifier
+     1>XeRSA.cpp(468): error C2065: 'securityInfo' : undeclared identifier
+     1>XeRSA.cpp(468): error C2065: 'XEX_SECURITY_INFO' : undeclared identifier
+     1>XeRSA.cpp(468): error C2059: syntax error : ')'
+     1>XeRSA.cpp(469): error C2065: 'currModuleHeader' : undeclared identifier
+     1>XeRSA.cpp(469): error C2227: left of '->SizeOfHeaders' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>XeRSA.cpp(469): error C2065: 'securityInfo' : undeclared identifier
+     1>XeRSA.cpp(469): error C2227: left of '->AllowedMediaTypes' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>XeRSA.cpp(469): error C2065: 'currModuleHeader' : undeclared identifier
+     1>XeRSA.cpp(470): error C2653: 'xbox' : is not a class or namespace name
+     1>XeRSA.cpp(470): error C2065: 'securityInfo' : undeclared identifier
+     1>XeRSA.cpp(470): error C2227: left of '->AllowedMediaTypes' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>XeRSA.cpp(470): error C3861: 'writeFile': identifier not found
+     1>Done Building Project "C:\Users\bob\Desktop\ghidra\Code\XeRSA\XeRSA\XeRSA.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.95

@@ -1,0 +1,26 @@
+﻿Build started 12/20/2019 2:14:29 PM.
+     1>Project "C:\Users\bob\Desktop\XeRSA\Test\Test.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\Test.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Release\Test.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Test.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Test.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Test.cpp
+         Test.cpp
+     1>Test.cpp(50): warning C4244: 'initializing' : conversion from 'DWORD' to 'BYTE', possible loss of data
+     1>Test.cpp(76): warning C4172: returning address of local variable or temporary
+     1>Test.cpp(102): warning C4172: returning address of local variable or temporary
+     1>Test.cpp(126): warning C4172: returning address of local variable or temporary
+     1>Test.cpp(144): warning C4172: returning address of local variable or temporary
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bob\Desktop\XeRSA\Release\Test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\ XeCrypt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\bob\Desktop\XeRSA\Release\Test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bob\Desktop\XeRSA\Release\Test.lib" /MACHINE:X86 Release\stdafx.obj
+         Release\Test.obj
+     1>LINK : fatal error C1047: The object or library file 'XeCrypt.lib' was created with an older compiler than other objects; rebuild old objects and libraries
+     1>LINK : fatal error LNK1257: code generation failed
+     1>Done Building Project "C:\Users\bob\Desktop\XeRSA\Test\Test.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.82

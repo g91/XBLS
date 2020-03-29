@@ -1,0 +1,13 @@
+LIBRARY xbdm.dll
+EXPORTS
+	DmAllocatePool			@1
+	DmAllocatePoolWithTag	@2
+
+	DmGetXbeInfo			@16
+	DmGetXboxName			@17
+
+	DmGetThreadInfoEx		@89
+
+	DmMapDevkitDrive		@141
+
+	DmGetSystemInfo			@161

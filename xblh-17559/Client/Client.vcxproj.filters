@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Hooks">
+      <UniqueIdentifier>{ddc38c4f-d6ed-478a-a94e-047f8c87e8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{7d8885b3-ff80-49eb-a329-8d858a9964bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{6ea931df-fa5e-42d2-bd93-6e44ab4da41c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{12e3a932-2ff0-41a7-8538-c4ce284b4c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hooks">
+      <UniqueIdentifier>{d955d999-8c08-4473-aa3c-2b0256bbc258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{930d3011-270f-40e2-9718-811c2a02708b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\struct">
+      <UniqueIdentifier>{a124d29c-c16a-48a5-9c88-d9b5a9ad321d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rgloader">
+      <UniqueIdentifier>{0154bbff-8f72-4a7c-900e-bc8f2aa0f754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rgloader">
+      <UniqueIdentifier>{4033d119-2558-4027-b550-3295de40b181}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Utilities.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\HvxCalls.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Hooks.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\GameHooks.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\System.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Network.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="patching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INIReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rgloader\OffsetManager.cpp">
+      <Filter>Source Files\rgloader</Filter>
+    </ClCompile>
+    <ClCompile Include="rgloader\xam.cpp">
+      <Filter>Source Files\rgloader</Filter>
+    </ClCompile>
+    <ClCompile Include="rgloader\xshell.cpp">
+      <Filter>Source Files\rgloader</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\socket.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\KVGuard.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xex.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tools\Hooks.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\HvxCalls.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Utilities.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Network.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\System.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\GameHooks.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="XBLAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="patching.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="struct\XKE.h">
+      <Filter>Header Files\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="struct\XOSC.h">
+      <Filter>Header Files\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INIReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rgloader\OffsetManager.h">
+      <Filter>Header Files\rgloader</Filter>
+    </ClInclude>
+    <ClInclude Include="rgloader\xam.h">
+      <Filter>Header Files\rgloader</Filter>
+    </ClInclude>
+    <ClInclude Include="ntstatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rgloader\xshell.h">
+      <Filter>Header Files\rgloader</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\socket.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\KVGuard.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

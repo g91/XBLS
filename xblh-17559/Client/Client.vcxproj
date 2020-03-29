@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release Retail|Xbox 360">
+      <Configuration>Release Retail</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2BAA662E-BD8B-45A5-B465-4498C2FB2775}</ProjectGuid>
+    <Keyword>Xbox360Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>2010-01</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <IncludePath>..\xkelib;$(IncludePath)</IncludePath>
+    <LinkIncremental>false</LinkIncremental>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <RemoteRoot>HDD:\</RemoteRoot>
+    <ImageXexOutput>$(OutDir)Client.xex</ImageXexOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\xkelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <ClCompile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>NDEBUG;_XBOX;LTCG</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <LanguageStandard>Default</LanguageStandard>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\xkelib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>xapilib.lib;xgraphics.lib;xboxkrnl.lib;xnet.lib;xact3ltcg.lib;x3daudioltcg.lib;xmcoreltcg.lib;vcomp.lib;xbdm.lib;XBLAPI.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <SetChecksum>true</SetChecksum>
+      <AdditionalOptions>/dll /align:128,4096 %(AdditionalOptions)</AdditionalOptions>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <LinkErrorReporting>QueueForNextLogin</LinkErrorReporting>
+    </Link>
+    <ImageXex>
+      <ConfigurationFile>xex.xml</ConfigurationFile>
+    </ImageXex>
+    <PostBuildEvent>
+      <Command>"$(ProjectDir)xextool.exe" -r a -m r "$(ImageXexOutput)"</Command>
+    </PostBuildEvent>
+    <Deploy>
+      <DeploymentType>CopyToHardDrive</DeploymentType>
+    </Deploy>
+    <Deploy>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+      <Progress>true</Progress>
+      <ForceCopy>true</ForceCopy>
+    </Deploy>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Hooks\GameHooks.cpp" />
+    <ClCompile Include="Hooks\System.cpp" />
+    <ClCompile Include="Cient.cpp" />
+    <ClCompile Include="ini.c" />
+    <ClCompile Include="INIReader.cpp" />
+    <ClCompile Include="Network\Network.cpp" />
+    <ClCompile Include="Network\socket.cpp" />
+    <ClCompile Include="patching.cpp" />
+    <ClCompile Include="rgloader\OffsetManager.cpp" />
+    <ClCompile Include="rgloader\xam.cpp" />
+    <ClCompile Include="rgloader\xshell.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Tools\Hooks.cpp" />
+    <ClCompile Include="Tools\HvxCalls.cpp" />
+    <ClCompile Include="Tools\KVGuard.cpp" />
+    <ClCompile Include="Tools\Utilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xex.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooks\GameHooks.h" />
+    <ClInclude Include="Hooks\System.h" />
+    <ClInclude Include="ini.h" />
+    <ClInclude Include="INIReader.h" />
+    <ClInclude Include="Network\Network.h" />
+    <ClInclude Include="Network\socket.h" />
+    <ClInclude Include="ntstatus.h" />
+    <ClInclude Include="patching.h" />
+    <ClInclude Include="rgloader\OffsetManager.h" />
+    <ClInclude Include="rgloader\xam.h" />
+    <ClInclude Include="rgloader\xshell.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="struct\XKE.h" />
+    <ClInclude Include="struct\XOSC.h" />
+    <ClInclude Include="Tools\Hooks.h" />
+    <ClInclude Include="Tools\HvxCalls.h" />
+    <ClInclude Include="Tools\KVGuard.h" />
+    <ClInclude Include="Tools\Utilities.h" />
+    <ClInclude Include="XBLAPI.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
