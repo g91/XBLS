@@ -1,0 +1,282 @@
+2440
+offset in hv
+^
+where the 0x80 bytes that are calced/gen'ed
+
+
+# =============== S U B R O U T I N E =======================================
+
+
+sub_2440:
+
+.set var_C0, -0xC0
+.set var_A0, -0xA0
+.set var_20, -0x20
+.set var_10, -0x10
+.set var_8, -8
+
+		mflr	  r12
+		std	  	r12, -8(r1)
+		std	  r31, -0x10(r1)
+		stdu	  r1, -0x110(r1)
+		addis	  r11, r2, 1
+		li	  r4, 0x14
+		addi	  r3, r1, 0x50
+		lwz	  r11, 0(r11)
+		stw	  r11, 0xF0(r1)
+		bl	  sub_B488
+		addis	  r11, r2, 1
+		addi	  r8, r1, 0x50
+		addi	  r3, r11, 0x100
+		li	  r7, 0
+		li	  r6, 0x80 # '?'
+		addi	  r5, r1, 0x70
+		li	  r4, 0x30 # '0'
+		bl	  sub_B428
+		cmpwi	  cr6, r3, 0
+		beq	  cr6, loc_24F0
+		li	  r4, 0x80 # '?'
+		addi	  r3, r1, 0x70
+		bl	  sub_B480
+		li	  r5, 0x10
+		addi	  r4, r1, 0x70
+		addi	  r3, r1, 0x70
+		bl	  sub_B3A8
+		addis	  r11, r2, 1
+		addi	  r3, r1, 0x70
+		addi	  r5, r11, 0x350
+		addis	  r11, r2, 1
+		addi	  r31, r11, 0x40
+		mr	  r4, r31
+		bl	  sub_B3E8
+		cmpwi	  cr6, r3, 0
+		mr	  r3, r31
+		bne	  cr6, loc_24E4
+		li	  r5, 0x80 # '?'
+		li	  r4, 0
+		bl	  sub_AD20
+		b	  loc_24F0
+# ---------------------------------------------------------------------------
+
+loc_24E4:
+		li	  r5, 0x10
+		mr	  r4, r31
+		bl	  sub_B3A8
+
+loc_24F0:
+		lwz	  r3, 0xF0(r1)
+		bl	  sub_204
+		addi	  r1, r1, 0x110
+		ld	  r12, -8(r1)
+		mtlr	  r12
+		ld	  r31, -0x10(r1)
+		blr
+# End of function sub_2440
+
+
+void sub_2440()
+{
+	var_C0 = -0xC0 ;
+	var_A0 = -0xA0 ;
+	var_20 = -0x20 ;
+	var_10 = -0x10 ;
+	var_8 = -8 ;
+	r12 = this*;
+	_asm
+	{
+		std	  	r12, -8(r1)
+	}
+	r31 = (DWORD) [r1 + -0x10];
+	_asm
+	{
+		stdu	  r1, -0x110(r1)
+	}
+	r11 = (DWORD) (r2 + 1);
+	_asm
+	{
+		li	  r4, 0x14
+	}
+	r3 = (DWORD) (r1 + 0x50);
+	r11 = (DWORD) [r11 + 0];
+	r11 = (WORD) [r1 + 0xF0];
+	sub_B488();
+	r11 = (DWORD) (r2 + 1);
+	r8 = (DWORD) (r1 + 0x50);
+	r3 = (DWORD) (r11 + 0x100);
+	_asm
+	{
+		li	  r7, 0
+		li	  r6, 0x80 # '?'
+	}
+	r5 = (DWORD) (r1 + 0x70);
+	_asm
+	{
+		li	  r4, 0x30 # '0'
+	}
+	sub_B428();
+	_asm
+	{
+		cmpwi	  cr6, r3, 0
+		beq	  cr6, loc_24F0
+		li	  r4, 0x80 # '?'
+	}
+	r3 = (DWORD) (r1 + 0x70);
+	sub_B480();
+	_asm
+	{
+		li	  r5, 0x10
+	}
+	r4 = (DWORD) (r1 + 0x70);
+	r3 = (DWORD) (r1 + 0x70);
+	sub_B3A8();
+	r11 = (DWORD) (r2 + 1);
+	r3 = (DWORD) (r1 + 0x70);
+	r5 = (DWORD) (r11 + 0x350);
+	r11 = (DWORD) (r2 + 1);
+	r31 = (DWORD) (r11 + 0x40);
+	r4 = (DWORD) r31;
+	sub_B3E8();
+	_asm
+	{
+		cmpwi	  cr6, r3, 0
+	}
+	r3 = (DWORD) r31;
+	_asm
+	{
+		bne	  cr6, loc_24E4
+		li	  r5, 0x80 # '?'
+		li	  r4, 0
+	}
+	sub_AD20();
+	_asm
+	{
+		b	  loc_24F0
+loc_24E4:
+		li	  r5, 0x10
+	}
+	r4 = (DWORD) r31;
+	sub_B3A8();
+	_asm
+	{
+loc_24F0:
+	}
+	r3 = (DWORD) [r1 + 0xF0];
+	sub_204();
+	r1 = (DWORD) (r1 + 0x110);
+	_asm
+	{
+		ld	  r12, -8(r1)
+		mtlr	  r12
+		ld	  r31, -0x10(r1)
+	}
+	return;
+}
+
+void sub_2440()
+{
+	var_C0 = -0xC0 ;
+	var_A0 = -0xA0 ;
+	var_20 = -0x20 ;
+	var_10 = -0x10 ;
+	var_8 = -8 ;
+	r12 = this*;
+	_asm
+	{
+		std	  	r12, -8(r1)
+	}
+	r31 = (DWORD) [r1 + -0x10];
+	_asm
+	{
+		stdu	  r1, -0x110(r1)
+	}
+	r11 = (DWORD) (r2 + 1);
+	_asm
+	{
+		li	  r4, 0x14
+	}
+	r3 = (DWORD) (r1 + 0x50);
+	r11 = (DWORD) [r11 + 0];
+	r11 = (WORD) [r1 + 0xF0];
+	sub_B488();
+	r11 = (DWORD) (r2 + 1);
+	r8 = (DWORD) (r1 + 0x50);
+	r3 = (DWORD) (r11 + 0x100);
+	_asm
+	{
+		li	  r7, 0
+		li	  r6, 0x80 # '?'
+	}
+	r5 = (DWORD) (r1 + 0x70);
+	_asm
+	{
+		li	  r4, 0x30 # '0'
+	}
+	sub_B428();
+	_asm
+	{
+		cmpwi	  cr6, r3, 0
+	}
+	if(cr6 == 0)
+	{
+		_asm
+		{
+			li	  r4, 0x80 # '?'
+		}
+		r3 = (DWORD) (r1 + 0x70);
+		sub_B480();
+		_asm
+		{
+			li	  r5, 0x10
+		}
+		r4 = (DWORD) (r1 + 0x70);
+		r3 = (DWORD) (r1 + 0x70);
+		sub_B3A8();
+		r11 = (DWORD) (r2 + 1);
+		r3 = (DWORD) (r1 + 0x70);
+		r5 = (DWORD) (r11 + 0x350);
+		r11 = (DWORD) (r2 + 1);
+		r31 = (DWORD) (r11 + 0x40);
+		r4 = (DWORD) r31;
+		sub_B3E8();
+		_asm
+		{
+			cmpwi	  cr6, r3, 0
+		}
+		r3 = (DWORD) r31;
+		if(cr6 != 0)
+		{
+			_asm
+			{
+				li	  r5, 0x80 # '?'
+				li	  r4, 0
+			}
+			sub_AD20();
+		}
+		_asm
+		{
+			b	  loc_24F0
+		}
+	}
+	_asm
+	{
+loc_24E4:
+		li	  r5, 0x10
+	}
+	r4 = (DWORD) r31;
+	sub_B3A8();
+	_asm
+	{
+loc_24F0:
+	}
+	r3 = (DWORD) [r1 + 0xF0];
+	sub_204();
+	r1 = (DWORD) (r1 + 0x110);
+	_asm
+	{
+		ld	  r12, -8(r1)
+		mtlr	  r12
+		ld	  r31, -0x10(r1)
+	}
+	return;
+}
+

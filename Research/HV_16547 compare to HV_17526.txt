@@ -1,0 +1,320 @@
+1.00 0.99 ------- 00000150 sub_150   00000150 sub_150     hash matching                                        5     5     5     24     24     24     7     7     7
+1.00 0.99 ------- 00000204 sub_204   00000204 sub_204     hash matching                                        3     3     3     27     27     27     3     3     3
+1.00 0.99 ------- 00000218 sub_218   00000218 sub_218     hash matching                                        2     2     2     22     22     22     2     2     2
+1.00 0.99 ------- 00000294 sub_294   00000294 sub_294     hash matching                                        2     2     2      5      5      5     1     1     1
+1.00 0.99 ------- 00000364 sub_364   00000364 sub_364     hash matching                                        8     8     8     47     47     47    12    12    12
+1.00 0.99 ------- 00000384 sub_384   00000384 sub_384     hash matching                                        2     2     2     16     16     16     1     1     1
+1.00 0.99 ------- 000003C4 sub_3C4   000003C4 sub_3C4     hash matching                                        3     3     3      7      7      7     3     3     3
+1.00 0.99 ------- 00000484 sub_484   00000484 sub_484     hash matching                                        3     3     3      9      9      9     3     3     3
+1.00 0.99 ------- 000004A8 sub_4A8   000004A8 sub_4A8     hash matching                                        2     2     2      9      9      9     2     2     2
+1.00 0.99 ------- 000004D8 sub_4D8   000004D8 sub_4D8     hash matching                                        2     2     2      4      4      4     2     2     2
+1.00 0.99 ------- 00000790 sub_790   00000790 sub_790     hash matching                                        2     2     2      6      6      6     1     1     1
+1.00 0.99 ------- 000007A0 sub_7A0   000007A0 sub_7A0     hash matching                                        2     2     2      6      6      6     1     1     1
+1.00 0.99 ------- 00000D7C sub_D7C   00000D7C sub_D7C     hash matching                                        3     3     3     19     19     19     3     3     3
+1.00 0.99 ------- 00000EE4 sub_EE4   00000EE4 sub_EE4     hash matching                                        3     3     3      9      9      9     3     3     3
+1.00 0.99 ------- 00001804 sub_1804  00001804 sub_1804    hash matching                                        4     4     4     13     13     13     4     4     4
+1.00 0.99 ------- 00001838 sub_1838  00001838 sub_1838    hash matching                                        3     3     3     14     14     14     3     3     3
+1.00 0.99 ------- 00001B10 sub_1B10  00001B10 sub_1B10    hash matching                                       11    11    11     80     80     80    18    18    18
+1.00 0.99 ------- 00001C50 sub_1C50  00001C50 sub_1C50    hash matching                                        5     5     5     49     49     49     6     6     6
+1.00 0.99 ------- 00001F60 sub_1F60  00001F60 sub_1F60    hash matching                                       10    10    10     83     83     83    13    13    13
+1.00 0.99 ------- 000020B0 sub_20B0  000020B0 sub_20B0    hash matching                                        9     9     9     87     87     87    12    12    12
+1.00 0.99 ------- 00002210 sub_2210  00002210 sub_2210    hash matching                                       16    16    16    146    146    146    21    21    21
+1.00 0.99 ------- 000022F8 sub_22F8  000022F8 sub_22F8    hash matching                                        6     6     6     81     81     81     8     8     8
+1.00 0.99 ------- 00002440 sub_2440  00002440 sub_2440    hash matching                                        5     5     5     51     51     51     6     6     6
+1.00 0.99 ------- 00002B78 sub_2B78  00002B70 sub_2B70    hash matching                                        4     4     4     17     17     17     5     5     5
+1.00 0.99 ------- 00002BC0 sub_2BC0  00002BC0 sub_2BC0    hash matching                                       17    17    17    140    140    140    24    24    24
+1.00 0.99 ------- 00002DD8 sub_2DD8  00002DD8 sub_2DD8    hash matching                                        8     8     8     46     46     46    11    11    11
+1.00 0.99 ------- 00002E90 sub_2E90  00002E90 sub_2E90    hash matching                                        8     8     8     94     94     94     9     9     9
+1.00 0.99 ------- 00003040 sub_3040  00003040 sub_3040    hash matching                                        8     8     8     47     47     47    11    11    11
+1.00 0.99 ------- 00003570 sub_3570  00003570 sub_3570    hash matching                                        4     4     4     12     12     12     4     4     4
+1.00 0.99 ------- 00003620 sub_3620  00003620 sub_3620    hash matching                                        2     2     2     40     40     40     1     1     1
+1.00 0.99 ------- 000036A8 sub_36A8  000036A8 sub_36A8    hash matching                                        2     2     2     52     52     52     1     1     1
+1.00 0.99 ------- 00003760 sub_3760  00003760 sub_3760    hash matching                                        2     2     2     57     57     57     1     1     1
+1.00 0.99 ------- 00003830 sub_3830  00003830 sub_3830    hash matching                                        4     4     4     29     29     29     4     4     4
+1.00 0.99 ------- 00003890 sub_3890  00003890 sub_3890    hash matching                                        4     4     4     17     17     17     5     5     5
+1.00 0.99 ------- 000038D8 sub_38D8  000038D8 sub_38D8    hash matching                                        7     7     7     48     48     48     8     8     8
+1.00 0.99 ------- 00003A00 sub_3A00  00003A00 sub_3A00    edges flowgraph MD index                            11    11    11     68     68     68    16    16    16
+1.00 0.99 ------- 00003C50 sub_3C50  00003C50 sub_3C50    hash matching                                       28    28    28    145    145    145    41    41    41
+1.00 0.99 ------- 00003E80 sub_3E80  00003E80 sub_3E80    hash matching                                        8     8     8     65     65     65    10    10    10
+1.00 0.99 ------- 00003FB8 sub_3FB8  00003FB8 sub_3FB8    edges flowgraph MD index                            32    32    32    199    199    199    47    47    47
+1.00 0.99 ------- 00006760 sub_6760  00006760 sub_6760    hash matching                                        2     2     2     55     55     55     1     1     1
+1.00 0.99 ------- 00006828 sub_6828  00006828 sub_6828    hash matching                                        2     2     2     50     50     50     1     1     1
+1.00 0.99 ------- 00007310 sub_7310  00007310 sub_7310    hash matching                                       14    14    14     71     71     71    21    21    21
+1.00 0.99 ------- 000073C0 sub_73C0  000073C0 sub_73C0    hash matching                                       12    12    12     53     53     53    17    17    17
+1.00 0.99 ------- 00007500 sub_7500  00007500 sub_7500    hash matching                                        6     6     6     45     45     45     7     7     7
+1.00 0.99 ------- 000075B8 sub_75B8  000075B8 sub_75B8    hash matching                                       12    12    12     55     55     55    19    19    19
+1.00 0.99 ------- 00008388 sub_8388  00008388 sub_8388    hash matching                                        8     8     8     60     60     60    10    10    10
+1.00 0.99 ------- 000084A8 sub_84A8  000084A8 sub_84A8    hash matching                                        5     5     5     14     14     14     7     7     7
+1.00 0.99 ------- 000089E0 sub_89E0  000089E0 sub_89E0    hash matching                                       14    14    14     31     31     31    20    20    20
+1.00 0.99 ------- 00008A60 sub_8A60  00008A60 sub_8A60    hash matching                                       22    22    22     56     56     56    28    28    28
+1.00 0.99 ------- 00008C40 sub_8C40  00008C40 sub_8C40    hash matching                                        6     6     6     20     20     20     6     6     6
+1.00 0.99 ------- 00008C90 sub_8C90  00008C90 sub_8C90    hash matching                                       19    19    19     62     62     62    27    27    27
+1.00 0.99 ------- 00008D88 sub_8D88  00008D88 sub_8D88    hash matching                                        3     3     3     29     29     29     3     3     3
+1.00 0.99 ------- 000098D8 sub_98D8  000098D8 sub_98D8    hash matching                                       24    24    24     90     90     90    36    36    36
+1.00 0.99 ------- 00009A28 sub_9A28  00009A28 sub_9A28    hash matching                                       35    35    35    174    174    174    55    55    55
+1.00 0.99 ------- 00009CC8 sub_9CC8  00009CC8 sub_9CC8    hash matching                                       16    16    16     64     64     64    22    22    22
+1.00 0.99 ------- 00009DB0 sub_9DB0  00009DB0 sub_9DB0    hash matching                                       14    14    14     55     55     55    19    19    19
+1.00 0.99 ------- 0000A068 sub_A068  0000A068 sub_A068    hash matching                                       12    12    12     52     52     52    16    16    16
+1.00 0.99 ------- 0000A120 sub_A120  0000A120 sub_A120    hash matching                                       50    50    50    205    205    205    78    78    78
+1.00 0.99 ------- 0000A458 sub_A458  0000A458 sub_A458    hash matching                                       13    13    13     65     65     65    18    18    18
+1.00 0.99 ------- 0000A804 sub_A804  0000A804 sub_A804    hash matching                                        3     3     3      7      7      7     2     2     2
+1.00 0.99 ------- 0000A808 sub_A808  0000A808 sub_A808    hash matching                                        2     2     2      6      6      6     1     1     1
+1.00 0.99 ------- 0000A880 sub_A880  0000A880 sub_A880    hash matching                                       76    76    76    251    251    251   117   117   117
+1.00 0.99 ------- 0000ADC0 sub_ADC0  0000ADC0 sub_ADC0    hash matching                                       89    89    89    298    298    298   136   136   136
+1.00 0.99 ------- 0000B0A8 sub_B0A8  0000B0A8 sub_B0A8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B0B0 sub_B0B0  0000B0B0 sub_B0B0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B0B8 sub_B0B8  0000B0B8 sub_B0B8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B0C0 sub_B0C0  0000B0C0 sub_B0C0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B0C8 sub_B0C8  0000B0C8 sub_B0C8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B0D0 sub_B0D0  0000B0D0 sub_B0D0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B0D8 sub_B0D8  0000B0D8 sub_B0D8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B0E0 sub_B0E0  0000B0E0 sub_B0E0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B0E8 sub_B0E8  0000B0E8 sub_B0E8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B0F0 sub_B0F0  0000B0F0 sub_B0F0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B0F8 sub_B0F8  0000B0F8 sub_B0F8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B108 sub_B108  0000B108 sub_B108    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B110 sub_B110  0000B110 sub_B110    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B118 sub_B118  0000B118 sub_B118    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B120 sub_B120  0000B120 sub_B120    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B128 sub_B128  0000B128 sub_B128    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B130 sub_B130  0000B130 sub_B130    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B138 sub_B138  0000B138 sub_B138    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B140 sub_B140  0000B140 sub_B140    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B148 sub_B148  0000B148 sub_B148    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B150 sub_B150  0000B150 sub_B150    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B158 sub_B158  0000B158 sub_B158    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B160 sub_B160  0000B160 sub_B160    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B358 sub_B358  0000B358 sub_B358    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B360 sub_B360  0000B360 sub_B360    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B368 sub_B368  0000B368 sub_B368    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B370 sub_B370  0000B370 sub_B370    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B378 sub_B378  0000B378 sub_B378    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B390 sub_B390  0000B390 sub_B390    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B398 sub_B398  0000B398 sub_B398    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B3A8 sub_B3A8  0000B3A8 sub_B3A8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B3C0 sub_B3C0  0000B3C0 sub_B3C0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B3E0 sub_B3E0  0000B3E0 sub_B3E0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B3E8 sub_B3E8  0000B3E8 sub_B3E8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B3F0 sub_B3F0  0000B3F0 sub_B3F0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B3F8 sub_B3F8  0000B3F8 sub_B3F8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B400 sub_B400  0000B400 sub_B400    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B408 sub_B408  0000B408 sub_B408    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B410 sub_B410  0000B410 sub_B410    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B418 sub_B418  0000B418 sub_B418    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B420 sub_B420  0000B420 sub_B420    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B428 sub_B428  0000B428 sub_B428    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B430 sub_B430  0000B430 sub_B430    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B438 sub_B438  0000B438 sub_B438    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B440 sub_B440  0000B440 sub_B440    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B448 sub_B448  0000B448 sub_B448    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B450 sub_B450  0000B450 sub_B450    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B458 sub_B458  0000B458 sub_B458    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B468 sub_B468  0000B468 sub_B468    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B478 sub_B478  0000B478 sub_B478    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B480 sub_B480  0000B480 sub_B480    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B488 sub_B488  0000B488 sub_B488    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B490 sub_B490  0000B490 sub_B490    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B498 sub_B498  0000B498 sub_B498    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B4A0 sub_B4A0  0000B4A0 sub_B4A0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B4B0 sub_B4B0  0000B4B0 sub_B4B0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B4B8 sub_B4B8  0000B4B8 sub_B4B8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B4C0 sub_B4C0  0000B4C0 sub_B4C0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B4C8 sub_B4C8  0000B4C8 sub_B4C8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B4D0 sub_B4D0  0000B4D0 sub_B4D0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B4D8 sub_B4D8  0000B4D8 sub_B4D8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B4E0 sub_B4E0  0000B4E0 sub_B4E0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B4E8 sub_B4E8  0000B4E8 sub_B4E8    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 0000B4F0 sub_B4F0  0000B4F0 sub_B4F0    hash matching                                        3     3     3      9      9      9     2     2     2
+1.00 0.99 ------- 00020000 sub_20000 00020000 sub_20000   hash matching                                        4     4     4     16     16     16     4     4     4
+1.00 0.99 ------- 00020040 sub_20040 00020040 sub_20040   hash matching                                        2     2     2     11     11     11     1     1     1
+1.00 0.99 ------- 00020060 sub_20060 00020060 sub_20060   hash matching                                        2     2     2     24     24     24     1     1     1
+1.00 0.99 ------- 000200F8 sub_200F8 000200F8 sub_200F8   hash matching                                        5     5     5    114    114    114     5     5     5
+1.00 0.99 ------- 00020300 sub_20300 00020300 sub_20300   hash matching                                        7     7     7     49     49     49     8     8     8
+1.00 0.99 ------- 000203A8 sub_203A8 000203A8 sub_203A8   hash matching                                       12    12    12     55     55     55    15    15    15
+1.00 0.99 ------- 00020520 sub_20520 00020520 sub_20520   hash matching                                        3     3     3     11     11     11     3     3     3
+1.00 0.99 ------- 00020578 sub_20578 00020578 sub_20578   hash matching                                        4     4     4     72     72     72     5     5     5
+1.00 0.99 ------- 00020680 sub_20680 00020680 sub_20680   hash matching                                        6     6     6     28     28     28     8     8     8
+1.00 0.99 ------- 00020EC8 sub_20EC8 00020EC8 sub_20EC8   hash matching                                        3     3     3     14     14     14     3     3     3
+1.00 0.99 ------- 00020F00 sub_20F00 00020F00 sub_20F00   hash matching                                       24    24    24    138    138    138    35    35    35
+1.00 0.99 ------- 000211F0 sub_211F0 000211F0 sub_211F0   hash matching                                        3     3     3      8      8      8     3     3     3
+1.00 0.99 ------- 00021210 sub_21210 00021210 sub_21210   hash matching                                        3     3     3     11     11     11     3     3     3
+1.00 0.99 ------- 00022E98 sub_22E98 00022E98 sub_22E98   hash matching                                        8     8     8     99     99     99     9     9     9
+1.00 0.99 ------- 00023010 sub_23010 00023010 sub_23010   hash matching                                        3     3     3     27     27     27     2     2     2
+1.00 0.99 ------- 00023170 sub_23170 00023170 sub_23170   hash matching                                        7     7     7     42     42     42     9     9     9
+1.00 0.99 ------- 00023218 sub_23218 00023218 sub_23218   hash matching                                        3     3     3     24     24     24     3     3     3
+1.00 0.99 ------- 00023278 sub_23278 00023278 sub_23278   hash matching                                        8     8     8     29     29     29    10    10    10
+1.00 0.99 ------- 00023620 sub_23620 00023620 sub_23620   hash matching                                        2     2     2     32     32     32     1     1     1
+1.00 0.99 ------- 00023830 sub_23830 00023830 sub_23830   hash matching                                       11    11    11     65     65     65    15    15    15
+1.00 0.99 ------- 00023E70 sub_23E70 00023E70 sub_23E70   hash matching                                        4     4     4    111    111    111     4     4     4
+1.00 0.99 ------- 0002402C sub_2402C 0002402C sub_2402C   hash matching                                        3     3     3    146    146    146     3     3     3
+1.00 0.99 ------- 00024274 sub_24274 00024274 sub_24274   hash matching                                        3     3     3    147    147    147     3     3     3
+1.00 0.99 ------- 00024578 sub_24578 00024578 sub_24578   hash matching                                        5     5     5     13     13     13     6     6     6
+1.00 0.99 ------- 000245B0 sub_245B0 000245B0 sub_245B0   hash matching                                        6     6     6     20     20     20     9     9     9
+1.00 0.99 ------- 00024788 sub_24788 00024788 sub_24788   hash matching                                       22    22    22     57     57     57    33    33    33
+1.00 0.99 ------- 00024AE0 sub_24AE0 00024AE0 sub_24AE0   hash matching                                        4     4     4     22     22     22     5     5     5
+1.00 0.99 ------- 00024B38 sub_24B38 00024B38 sub_24B38   hash matching                                        4     4     4     22     22     22     5     5     5
+1.00 0.99 ------- 00024B90 sub_24B90 00024B90 sub_24B90   hash matching                                       11    11    11     53     53     53    14    14    14
+1.00 0.99 ------- 00024C0C sub_24C0C 00024C0C sub_24C0C   hash matching                                        3     3     3     31     31     31     3     3     3
+1.00 0.99 ------- 00024C88 sub_24C88 00024C88 sub_24C88   hash matching                                       11    11    11     53     53     53    14    14    14
+1.00 0.99 ------- 00024D08 sub_24D08 00024D08 sub_24D08   hash matching                                        6     6     6     20     20     20     6     6     6
+1.00 0.99 ------- 00024D58 sub_24D58 00024D58 sub_24D58   hash matching                                        4     4     4     32     32     32     5     5     5
+1.00 0.99 ------- 00024DD8 sub_24DD8 00024DD8 sub_24DD8   hash matching                                        7     7     7     36     36     36     9     9     9
+1.00 0.99 ------- 00024E50 sub_24E50 00024E50 sub_24E50   hash matching                                        5     5     5     67     67     67     6     6     6
+1.00 0.99 ------- 00024F60 sub_24F60 00024F60 sub_24F60   hash matching                                        6     6     6     91     91     91     7     7     7
+1.00 0.99 ------- 00025138 sub_25138 00025138 sub_25138   hash matching                                        5     5     5     31     31     31     6     6     6
+1.00 0.99 ------- 00025298 sub_25298 00025298 sub_25298   hash matching                                       14    14    14    139    139    139    19    19    19
+1.00 0.99 ------- 000254A8 sub_254A8 000254A8 sub_254A8   hash matching                                        6     6     6     34     34     34     9     9     9
+1.00 0.99 ------- 00025530 sub_25530 00025530 sub_25530   hash matching                                        5     5     5     58     58     58     5     5     5
+1.00 0.99 ------- 00025600 sub_25600 00025600 sub_25600   hash matching                                       10    10    10     66     66     66    12    12    12
+1.00 0.99 ------- 00025970 sub_25970 00025970 sub_25970   hash matching                                        8     8     8     48     48     48    10    10    10
+1.00 0.99 ------- 00025A18 sub_25A18 00025A18 sub_25A18   hash matching                                        4     4     4     29     29     29     4     4     4
+1.00 0.99 ------- 00025B50 sub_25B50 00025B50 sub_25B50   hash matching                                        7     7     7     58     58     58     8     8     8
+1.00 0.99 ------- 00025C20 sub_25C20 00025C20 sub_25C20   hash matching                                       10    10    10     65     65     65    15    15    15
+1.00 0.99 ------- 00025D08 sub_25D08 00025D08 sub_25D08   hash matching                                        9     9     9     59     59     59    12    12    12
+1.00 0.99 ------- 00025DF8 sub_25DF8 00025DF8 sub_25DF8   hash matching                                        5     5     5     25     25     25     5     5     5
+1.00 0.99 ------- 00025E60 sub_25E60 00025E60 sub_25E60   hash matching                                       18    18    18     55     55     55    27    27    27
+1.00 0.99 ------- 00025F40 sub_25F40 00025F40 sub_25F40   hash matching                                        6     6     6     34     34     34     7     7     7
+1.00 0.99 ------- 00025FB0 sub_25FB0 00025FB0 sub_25FB0   hash matching                                       10    10    10     57     57     57    14    14    14
+1.00 0.99 ------- 00026098 sub_26098 00026098 sub_26098   hash matching                                       18    18    18     96     96     96    24    24    24
+1.00 0.99 ------- 000261F8 sub_261F8 000261F8 sub_261F8   hash matching                                        8     8     8     37     37     37    10    10    10
+1.00 0.99 ------- 00026420 sub_26420 00026420 sub_26420   hash matching                                       17    17    17    136    136    136    22    22    22
+1.00 0.99 ------- 00026620 sub_26620 00026620 sub_26620   hash matching                                       17    17    17    108    108    108    26    26    26
+1.00 0.99 ------- 00027F08 sub_27F08 00027F08 sub_27F08   hash matching                                        8     8     8     47     47     47    10    10    10
+1.00 0.99 ------- 00027FC8 sub_27FC8 00027FC8 sub_27FC8   hash matching                                        8     8     8     32     32     32    11    11    11
+1.00 0.99 ------- 00028048 sub_28048 00028048 sub_28048   hash matching                                       31    31    31    140    140    140    44    44    44
+1.00 0.99 ------- 00028278 sub_28278 00028278 sub_28278   hash matching                                        4     4     4     39     39     39     4     4     4
+1.00 0.99 ------- 00028318 sub_28318 00028318 sub_28318   hash matching                                        4     4     4     38     38     38     4     4     4
+1.00 0.99 ------- 00028518 sub_28518 00028518 sub_28518   hash matching                                       10    10    10     52     52     52    13    13    13
+1.00 0.99 ------- 000285D0 sub_285D0 000285D0 sub_285D0   hash matching                                        8     8     8     30     30     30    11    11    11
+1.00 0.99 ------- 000286F0 sub_286F0 000286F0 sub_286F0   hash matching                                        7     7     7     18     18     18     9     9     9
+1.00 0.99 ------- 00029760 sub_29760 00029760 sub_29760   hash matching                                        9     9     9     42     42     42    12    12    12
+1.00 0.99 ------- 000297F0 sub_297F0 000297F0 sub_297F0   hash matching                                        3     3     3     18     18     18     3     3     3
+1.00 0.99 ------- 00029838 sub_29838 00029838 sub_29838   hash matching                                       13    13    13     50     50     50    18    18    18
+1.00 0.99 ------- 000298E8 sub_298E8 000298E8 sub_298E8   hash matching                                       12    12    12     32     32     32    14    14    14
+1.00 0.99 ------- 00029968 sub_29968 00029968 sub_29968   hash matching                                       20    20    20     71     71     71    29    29    29
+1.00 0.99 ------- 00029A68 sub_29A68 00029A68 sub_29A68   hash matching                                       13    13    13     66     66     66    16    16    16
+1.00 0.99 ------- 00029B58 sub_29B58 00029B58 sub_29B58   hash matching                                        3     3     3     36     36     36     3     3     3
+1.00 0.99 ------- 00029C68 sub_29C68 00029C68 sub_29C68   hash matching                                        4     4     4     22     22     22     4     4     4
+1.00 0.99 ------- 0002A740 sub_2A740 0002A740 sub_2A740   hash matching                                        7     7     7     36     36     36     9     9     9
+1.00 0.99 ------- 0002B098 sub_2B098 0002B098 sub_2B098   hash matching                                       12    12    12     53     53     53    19    19    19
+1.00 0.99 ------- 0002B810 sub_2B810 0002B810 sub_2B810   edges flowgraph MD index                            22    22    22    131    131    131    30    30    30
+1.00 0.99 ------- 0002BB40 sub_2BB40 0002BB40 sub_2BB40   hash matching                                        6     6     6     20     20     20     7     7     7
+1.00 0.99 ------- 0002BB90 sub_2BB90 0002BB90 sub_2BB90   hash matching                                        4     4     4     19     19     19     5     5     5
+1.00 0.99 ------- 0002BBE0 sub_2BBE0 0002BBE0 sub_2BBE0   hash matching                                        6     6     6     23     23     23     7     7     7
+1.00 0.99 ------- 0002BC40 sub_2BC40 0002BC40 sub_2BC40   hash matching                                        6     6     6     23     23     23     7     7     7
+1.00 0.99 ------- 0002BCA0 sub_2BCA0 0002BCA0 sub_2BCA0   hash matching                                       21    21    21    118    118    118    33    33    33
+1.00 0.99 ------- 0002C938 sub_2C938 0002C910 sub_2C910   edges flowgraph MD index                            12    12    12     44     44     44    14    14    14
+1.00 0.99 ------- 0002CD70 sub_2CD70 0002CD48 sub_2CD48   hash matching                                        4     4     4     67     67     67     4     4     4
+1.00 0.99 ------- 0002CEF0 sub_2CEF0 0002CEC8 sub_2CEC8   hash matching                                        6     6     6     25     25     25     8     8     8
+1.00 0.99 ------- 0002CF58 sub_2CF58 0002CF30 sub_2CF30   edges flowgraph MD index                            16    16    16    117    117    117    21    21    21
+1.00 0.99 ------- 0002D798 sub_2D798 0002D770 sub_2D770   hash matching                                        5     5     5     19     19     19     6     6     6
+1.00 0.99 ------- 0002DA88 sub_2DA88 0002DA60 sub_2DA60   hash matching                                        4     4     4     47     47     47     4     4     4
+1.00 0.99 ------- 00031108 sub_31108 00031108 sub_31108   hash matching                                        9     9     9     25     25     25    12    12    12
+1.00 0.99 ------- 00031170 sub_31170 00031170 sub_31170   edges flowgraph MD index                             9     9     9     46     46     46    12    12    12
+1.00 0.99 ------- 00031228 sub_31228 00031228 sub_31228   hash matching                                        2     2     2     54     54     54     1     1     1
+1.00 0.99 ------- 00031560 sub_31560 00031560 sub_31560   hash matching                                        3     3     3     53     53     53     3     3     3
+1.00 0.99 ------- 00031778 sub_31778 00031778 sub_31778   hash matching                                        4     4     4     32     32     32     3     3     3
+1.00 0.99 ------- 00005348 sub_5348  00005348 sub_5348    edges callgraph MD index                            28    28    28    115    115    115    40    40    40
+1.00 0.99 ------- 0002C9C8 sub_2C9C8 0002C9A0 sub_2C9A0   MD index matching (flowgraph MD index, top down)    16    16    16     77     77     77    22    22    22
+1.00 0.99 ------- 00003F88 sub_3F88  00003F88 sub_3F88    call reference matching                             33    33    33    211    211    211    48    48    48
+1.00 0.99 ------- 00002A20 sub_2A20  00002A18 sub_2A18    MD index matching (flowgraph MD index, top down)    11    11    11     56     56     56    13    13    13
+1.00 0.99 ------- 00001E08 sub_1E08  00001E08 sub_1E08    hash matching                                       29    29    29     93     93     93    40    40    40
+1.00 0.99 ------- 00027778 sub_27778 00027778 sub_27778   hash matching                                       23    23    23    107    107    107    38    38    38
+1.00 0.99 ------- 00030050 sub_30050 00030050 sub_30050   hash matching                                       23    23    23     79     79     79    33    33    33
+1.00 0.99 ------- 00006E68 sub_6E68  00006E68 sub_6E68    hash matching                                       80    80    80    380    380    380   122   122   122
+1.00 0.99 ------- 00028648 sub_28648 00028648 sub_28648   edges callgraph MD index                             5     5     5     48     48     48     5     5     5
+1.00 0.99 ------- 0002CBC0 sub_2CBC0 0002CB98 sub_2CB98   edges callgraph MD index                             5     5     5     60     60     60     5     5     5
+1.00 0.99 ------- 00001CE0 sub_1CE0  00001CE0 sub_1CE0    hash matching                                       15    15    15     83     83     83    21    21    21
+1.00 0.99 ------- 00003980 sub_3980  00003980 sub_3980    edges callgraph MD index                             4     4     4     32     32     32     4     4     4
+1.00 0.99 ------- 00003B10 sub_3B10  00003B10 sub_3B10    edges callgraph MD index                             4     4     4     80     80     80     4     4     4
+1.00 0.99 ------- 000084E0 sub_84E0  000084E0 sub_84E0    hash matching                                       43    43    43    185    185    185    61    61    61
+1.00 0.99 ------- 00020128 sub_20128 00020128 sub_20128   hash matching                                       13    13    13     82     82     82    17    17    17
+1.00 0.99 ------- 0002D7E8 sub_2D7E8 0002D7C0 sub_2D7C0   call reference matching                             10    10    10     54     54     54    15    15    15
+1.00 0.99 ------- 00009738 sub_9738  00009738 sub_9738    hash matching                                       37    37    37    115    115    115    53    53    53
+1.00 0.99 ------- 0000AD20 sub_AD20  0000AD20 sub_AD20    hash matching                                       11    11    11     40     40     40    16    16    16
+1.00 0.99 ------- 00022DB8 sub_22DB8 00022DB8 sub_22DB8   hash matching                                       11    11    11     64     64     64    13    13    13
+1.00 0.99 ------- 00023060 sub_23060 00023060 sub_23060   hash matching                                       11    11    11     51     51     51    13    13    13
+1.00 0.99 ------- 00009558 sub_9558  00009558 sub_9558    hash matching                                       34    34    34    130    130    130    47    47    47
+1.00 0.99 ------- 00028738 sub_28738 00028738 sub_28738   hash matching                                       20    20    20     60     60     60    27    27    27
+1.00 0.99 ------- 00009E78 sub_9E78  00009E78 sub_9E78    hash matching                                       30    30    30    134    134    134    41    41    41
+1.00 0.99 ------- 00020108 sub_20108 00020108 sub_20108   hash matching                                        9     9     9    301    301    301    10    10    10
+1.00 0.99 ------- 00022BD0 sub_22BD0 00022BD0 sub_22BD0   hash matching                                       19    19    19     81     81     81    26    26    26
+1.00 0.99 ------- 00030488 sub_30488 00030488 sub_30488   hash matching                                       48    48    48    173    173    173    72    72    72
+1.00 0.99 ------- 000283B0 sub_283B0 000283B0 sub_283B0   hash matching                                       18    18    18     99     99     99    24    24    24
+1.00 0.99 ------- 00024870 sub_24870 00024870 sub_24870   hash matching                                       36    36    36    168    168    168    51    51    51
+1.00 0.99 ------- 000087A8 sub_87A8  000087A8 sub_87A8    hash matching                                       35    35    35    148    148    148    49    49    49
+1.00 0.99 ------- 00023538 sub_23538 00023538 sub_23538   hash matching                                        8     8     8     67     67     67     9     9     9
+1.00 0.99 ------- 000029E0 sub_29E0  000029D8 sub_29D8    call reference matching                              6     6     6     37     37     37     7     7     7
+1.00 0.99 ------- 00008E00 sub_8E00  00008E00 sub_8E00    hash matching                                       95    95    95    367    367    367   137   137   137
+1.00 0.99 ------- 000317D8 sub_317D8 000317D8 sub_317D8   hash matching                                        7     7     7     60     60     60     7     7     7
+1.00 0.99 ------- 000246B0 sub_246B0 000246B0 sub_246B0   hash matching                                       14    14    14     64     64     64    19    19    19
+1.00 0.99 ------- 000312E8 sub_312E8 000312E8 sub_312E8   edges flowgraph MD index                            21    21    21    110    110    110    27    27    27
+1.00 0.99 ------- 00008B80 sub_8B80  00008B80 sub_8B80    hash matching                                       13    13    13     48     48     48    17    17    17
+1.00 0.99 ------- 00024600 sub_24600 00024600 sub_24600   hash matching                                       13    13    13     54     54     54    18    18    18
+1.00 0.99 ------- 00022CF0 sub_22CF0 00022CF0 sub_22CF0   hash matching                                       12    12    12     60     60     60    14    14    14
+1.00 0.99 ------- 00020910 sub_20910 00020910 sub_20910   hash matching                                       61    61    61    282    282    282    87    87    87
+1.00 0.99 ------- 000001B0 sub_1B0   000001B0 sub_1B0     hash matching                                        5     5     5     12     12     12     7     7     7
+1.00 0.99 ------- 000002E8 sub_2E8   000002E8 sub_2E8     prime signature matching                             1     1     1      4      4      4     0     0     0
+1.00 0.99 ------- 00000FD4 sub_FD4   00000FD4 sub_FD4     hash matching                                        5     5     5     17     17     17     6     6     6
+1.00 0.99 ------- 00023330 sub_23330 00023330 sub_23330   hash matching                                        5     5     5     80     80     80     4     4     4
+1.00 0.99 ------- 00023500 sub_23500 00023500 sub_23500   hash matching                                        5     5     5     14     14     14     6     6     6
+1.00 0.99 ------- 000206F0 sub_206F0 000206F0 sub_206F0   hash matching                                       22    22    22    104    104    104    28    28    28
+1.00 0.99 ------- 0002CE68 sub_2CE68 0002CE40 sub_2CE40   call reference matching                              3     3     3     34     34     34     3     3     3
+1.00 0.99 ------- 00022738 sub_22738 00022738 sub_22738   hash matching                                       18    18    18    306    306    306    22    22    22
+1.00 0.99 ------- 00021968 sub_21968 00021968 sub_21968   hash matching                                       17    17    17    170    170    170    18    18    18
+1.00 0.98 ------- 000244C0 sub_244C0 000244C0 sub_244C0   hash matching                                       10    10    10     57     57     57    10    10    10
+1.00 0.98 ------- 000034B8 sub_34B8  000034B8 sub_34B8    hash matching                                       31    31    31    139    139    139    41    41    41
+1.00 0.98 ------- 000303F0 sub_303F0 000303F0 sub_303F0   hash matching                                        6     6     6     48     48     48     5     5     5
+1.00 0.98 ------- 00003358 sub_3358  00003358 sub_3358    hash matching                                       28    28    28    124    124    124    35    35    35
+1.00 0.98 ------- 00031638 sub_31638 00031638 sub_31638   hash matching                                        7     7     7     90     90     90     6     6     6
+1.00 0.98 ------- 0000A800 sub_A800  0000A800 sub_A800    hash matching                                        4     4     4      8      8      8     3     3     3
+1.00 0.98 ------- 0002CAE8 sub_2CAE8 0002CAC0 sub_2CAC0   address sequence                                     4     4     4     60     60     60     4     4     4
+1.00 0.98 ------- 0002CC98 sub_2CC98 0002CC70 sub_2CC70   address sequence                                     4     4     4     60     60     60     4     4     4
+1.00 0.98 ------- 000001E0 sub_1E0   000001E0 sub_1E0     call reference matching                              1     1     1      4      4      4     0     0     0
+1.00 0.98 ------- 00000270 sub_270   00000270 sub_270     call reference matching                              1     1     1      4      4      4     0     0     0
+1.00 0.98 ------- 00000280 sub_280   00000280 sub_280     call reference matching                              1     1     1      5      5      5     0     0     0
+1.00 0.98 ------- 00000298 sub_298   00000298 sub_298     call reference matching                              1     1     1      4      4      4     0     0     0
+1.00 0.98 ------- 000002A8 sub_2A8   000002A8 sub_2A8     call reference matching                              1     1     1      4      4      4     0     0     0
+1.00 0.98 ------- 000002B8 sub_2B8   000002B8 sub_2B8     call reference matching                              1     1     1      4      4      4     0     0     0
+1.00 0.98 ------- 000002C8 sub_2C8   000002C8 sub_2C8     call reference matching                              1     1     1      4      4      4     0     0     0
+1.00 0.98 ------- 000002D8 sub_2D8   000002D8 sub_2D8     call reference matching                              1     1     1      4      4      4     0     0     0
+1.00 0.98 ------- 00000398 sub_398   00000398 sub_398     call reference matching                              1     1     1     11     11     11     0     0     0
+1.00 0.98 ------- 000004E8 sub_4E8   000004E8 sub_4E8     call reference matching                              1     1     1      5      5      5     0     0     0
+1.00 0.98 ------- 0000057C sub_57C   0000057C sub_57C     call reference matching                              1     1     1     11     11     11     0     0     0
+1.00 0.98 ------- 000005A8 sub_5A8   000005A8 sub_5A8     call reference matching                              1     1     1      6      6      6     0     0     0
+1.00 0.98 ------- 000005C0 sub_5C0   000005C0 sub_5C0     call reference matching                              1     1     1      6      6      6     0     0     0
+1.00 0.98 ------- 0000068C sub_68C   0000068C sub_68C     call reference matching                              1     1     1      5      5      5     0     0     0
+1.00 0.98 ------- 000006A0 sub_6A0   000006A0 sub_6A0     call reference matching                              1     1     1      5      5      5     0     0     0
+1.00 0.98 ------- 000006B4 sub_6B4   000006B4 sub_6B4     call reference matching                              1     1     1      6      6      6     0     0     0
+1.00 0.98 ------- 000006CC sub_6CC   000006CC sub_6CC     call reference matching                              1     1     1      6      6      6     0     0     0
+1.00 0.98 ------- 00002540 sub_2540  00002540 sub_2540    call reference matching                              1     1     1     17     17     17     0     0     0
+1.00 0.98 ------- 00002FF0 sub_2FF0  00002FF0 sub_2FF0    call reference matching                              1     1     1     19     19     19     0     0     0
+1.00 0.98 ------- 00007498 sub_7498  00007498 sub_7498    call reference matching                              1     1     1     25     25     25     0     0     0
+1.00 0.98 ------- 00008478 sub_8478  00008478 sub_8478    call reference matching                              1     1     1     11     11     11     0     0     0
+1.00 0.98 ------- 0000A80C sub_A80C  0000A80C sub_A80C    call reference matching                              1     1     1      5      5      5     0     0     0
+1.00 0.98 ------- 00020860 sub_20860 00020860 sub_20860   call reference matching                              1     1     1     21     21     21     0     0     0
+1.00 0.98 ------- 000208B8 sub_208B8 000208B8 sub_208B8   call reference matching                              1     1     1     22     22     22     0     0     0
+1.00 0.98 ------- 000226F0 sub_226F0 000226F0 sub_226F0   call reference matching                              1     1     1     18     18     18     0     0     0
+1.00 0.98 ------- 00025210 sub_25210 00025210 sub_25210   call reference matching                              1     1     1     34     34     34     0     0     0
+1.00 0.98 ------- 00031478 sub_31478 00031478 sub_31478   call reference matching                              1     1     1     58     58     58     0     0     0
+1.00 0.98 ------- 0000A7E8 sub_A7E8  0000A7E8 sub_A7E8    hash matching                                        8     8     8     14     14     14     7     7     7
+1.00 0.97 ------- 00021270 sub_21270 00021270 sub_21270   hash matching                                       19    19    19    314    314    314    21    21    21
+1.00 0.97 ------- 00000E14 sub_E14   00000E14 sub_E14     hash matching                                       17    17    17     71     71     71    18    18    18
+1.00 0.97 ------- 0000A7FC sub_A7FC  0000A7FC sub_A7FC    hash matching                                        5     5     5      9      9      9     4     4     4
+1.00 0.97 ------- 00021C70 sub_21C70 00021C70 sub_21C70   hash matching                                       10    10    10    198    198    198     9     9     9
+1.00 0.96 ------- 0000A7F8 sub_A7F8  0000A7F8 sub_A7F8    hash matching                                        6     6     6     10     10     10     5     5     5
+1.00 0.96 ------- 00000464 sub_464   00000464 sub_464     call reference matching                              1     1     1      6      6      6     0     0     0
+1.00 0.96 ------- 000035B0 sub_35B0  000035B0 sub_35B0    hash matching                                       10    10    10     28     28     28    13    13    13
+1.00 0.96 ------- 0000A7F4 sub_A7F4  0000A7F4 sub_A7F4    hash matching                                        7     7     7     11     11     11     6     6     6
+1.00 0.96 ------- 0000A7D0 sub_A7D0  0000A7D0 sub_A7D0    hash matching                                       13    13    13     20     20     20    12    12    12
+1.00 0.95 ------- 000027F0 sub_27F0  00002BB8 sub_2BB8    prime signature matching                             1     1     1      2      2      2     0     0     0
+1.00 0.95 ------- 000035A0 sub_35A0  000035A0 sub_35A0    prime signature matching                             1     1     1      3      3      3     0     0     0
+1.00 0.95 ------- 0000A7E4 sub_A7E4  0000A7E4 sub_A7E4    hash matching                                        9     9     9     15     15     15     8     8     8
+1.00 0.94 ------- 0000A7E0 sub_A7E0  0000A7E0 sub_A7E0    hash matching                                       10    10    10     16     16     16     9     9     9
+1.00 0.94 ------- 0000A7DC sub_A7DC  0000A7DC sub_A7DC    hash matching                                       11    11    11     17     17     17    10    10    10
+1.00 0.94 ------- 0000A7D8 sub_A7D8  0000A7D8 sub_A7D8    hash matching                                       12    12    12     18     18     18    11    11    11
+1.00 0.90 ------- 000004CC sub_4CC   000004CC sub_4CC     call reference matching                              1     1     1      3      3      3     0     0     0
+1.00 0.88 ------- 000003E0 sub_3E0   000003E0 sub_3E0     address sequence                                     1     1     1      4      4      4     0     0     0
+1.00 0.88 ------- 000003F0 sub_3F0   000003F0 sub_3F0     address sequence                                     1     1     1      4      4      4     0     0     0
+1.00 0.88 ------- 000005D8 sub_5D8   000005D8 sub_5D8     address sequence                                     1     1     1      5      5      5     0     0     0
+1.00 0.88 ------- 000005EC sub_5EC   000005EC sub_5EC     address sequence                                     1     1     1      5      5      5     0     0     0

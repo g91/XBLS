@@ -1,0 +1,91 @@
+﻿Register 	Classification 		Notes
+r0 			local 				commonly used to hold the old link register when building the stack frame
+r1 			dedicated 			stack pointer
+r2 			dedicated 			table of contents pointer
+r3 			local 				commonly used as the return value of a function, and also the first argument in
+r4–r10 		local 				commonly used to send in arguments 2 through 8 into a function
+r11–r12 	local 
+r13–r31 	global 
+lr 			dedicated 			link register; cannot be used as a general register. Use mflr (move from link register) or mtlr (move to link register) to get at, e.g., mtlr r0
+cr 			dedicated 			condition register
+# --------------------------
+addr xosc:		.text:90015BD0
+addr END(xosc): .text:90015E58
+
+let xosc = f xosc() [int]
+
+xosc      .set var_90, -0x90
+xosc      .set var_8C, -0x8C
+xosc      .set var_80, -0x80
+xosc      .set var_7C, -0x7C
+xosc      .set var_78, -0x78
+xosc      .set var_74, -0x74
+xosc      .set var_70, -0x70
+# ---------------------------
+xosc+104  calculateECCHash:                                                     # CODE XREF: xosc+1B4(down)j		|calculateECCHash: 
+xosc+104                  li        r4, 4                                       # Load Immediate					| 	
+xosc+108                  addi      r3, r1, 0x50                                # Add Immediate						| 	byte r3[4]
+xosc+10C                  bl        XeCryptRandom                               # Branch						| 	XeCryptRandom(&r3, 4) 		// make 4 random bytes
+xosc+110                  lwz       r11, 0x50(r1)                               # Load Word and Zero					| 	r11 = stack[sp+0x50] 		// memcpy (r11, sp+0x50, 4)
+xosc+114                  li        r10, 0xA                                    # Load Immediate					| 	r10 = 10			//
+xosc+118                  li        r4, 0                                       # Load Immediate					| 	r4  = 0				// Passed to another function, See sub_90015E58+14
+xosc+11C                  divwu     r10, r11, r10                               # Divide Word Unsigned					| 	r10 = r11 % r10			//
+xosc+120                  mr        r28, r22                                    # Move Register						| 	r28 = r22			//
+xosc+124                  mulli     r10, r10, 0xA                               # Multiply Low Immediate				| 	r10 = HIGH(r10 * 10) 		// r10 = (prod[0..127] <- (r10 * 10)) (128 bit)
+xosc+128                  subf      r11, r10, r11                               # Subtract from						| 	r11 = r11 - r10			//
+xosc+12C                  addi      r3, r11, 0xA                                # Add Immediate						| 	r3  = r11 + 10			//
+xosc+130                  stw       r3, 0x50(r1)                                # Store Word						| 	r3  = stack[sp+0x50]		// memcpy (sp+0x50, r3, 4), store ecc
+xosc+134                  divwu     r11, r3, r26                                # Divide Word Unsigned					| 	r11 = r3 % r26			//
+xosc+138                  mulli     r11, r11, 5                                 # Multiply Low Immediate				| 	r11 = r11 * 5			//
+xosc+13C                  subf      r30, r11, r3                                # Subtract from						| 	r30 = r3 - r11			//
+xosc+140                  bl        sub_90015E58                                # Branch						| 	goto sub_90015E58		// We are continuing this current function
+# ---------------------------
+Instruction Defs
+
+	stw		rS, d(rA)
+	
+		if rA = 0 then b <- 0
+		else           b <- (rA)
+		
+		EA <- b + EXTS(d)
+		MEM(EA, 4) <- rS[32..63]
+		
+		# EA = Sum of (rA | 0) + d. 
+		# The contents of the low-order 32bits of rS are stored into the 
+		# word in memory addressed by EA.
+		
+	stw		  rS  d    rA
+	stw       r3, 0x50(r1)
+	
+	int EA = rA + d 
+	
+	memset(buffer + 0x50, 4, HIGH(r3));
+	
+# ---------------------------
+C++ equiv code
+
+	int param_1; // r26
+	int param_5; // r30
+
+	byte rand[4]; // r3 (1)
+	XeCryptRandom(&rand, 4); 					// Generate 4 random bytes
+	
+	DWORD dwBufferProc;
+	DWORD dwSalt;		// r10
+	DWORD dwHash; 		// r11
+	DWORD dwResult;		// r3 (2)
+	int   hiSalt;		// HIGH(salt * 10)
+	
+	memcpy(buffer + 0x50, &dwHash, 		 4);
+	memcpy(buffer + 0x50, &dwBufferProc, 4);
+	
+	dwSalt   = dwHash % 10;
+	// r28   = r22
+	dwSalt   = HIGH_DWORD( (DWORD)(dwSalt * 10) );
+	dwHash   = dwHash - highDWSalt;
+	dwResult = dwHash + 10;
+	memcpy(dwResult, buffer + 0x50, 4); // Stores the 0x50
+	
+	dwHash   = dwResult % param_1; 
+	dwHash   = dwHash * 5;
+	param_5  = dwResult - dwHash; // Maybe the returned result
