@@ -20,6 +20,7 @@ regardless this leak was necessary, a lot of people in the community have suffer
 !!in the end we all find out that money is the root of all evil and it maintains its value!!
 
 
-if anybody wants to add anything to the archive or would like credits please join our Discord!!!
+if anybody wants to add anything to the archive or would like credits please join ourDiscord!!! 
+
 join us on Discord:
 https://discord.gg/ZysePxQ
