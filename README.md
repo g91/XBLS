@@ -27,3 +27,7 @@ https://discord.gg/ZysePxQ
 
 
 p.s. https://github.com/XBLHammer/API-Server-Example there is a client example here for using the API uploaded. however we are still offering free API access for those who have a hard time setting it up. just join our Discord and the website will be available unfortunately we're not allowed to post that kind of website here I've already gotten warnings :)
+
+
+
+again as I said in the email to Microsoft at Microsoft. if you randomize the salts, if you look at the Xebuild patches themselves and change functions. enough to break patterns. all of the important people in the community who could update this stuff is gone. so if you make actual changes and randomize salts these people are done. you can take your system back. the community has literally ran out all the intelligent people by attacking them insulting them and toxicity so if you make any actual changes at this point it's over for all of them, 
