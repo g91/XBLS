@@ -24,3 +24,6 @@ if anybody wants to add anything to the archive or would like credits please joi
 
 join us on Discord:
 https://discord.gg/ZysePxQ
+
+
+p.s. https://github.com/XBLHammer/API-Server-Example there is a client example here for using the API uploaded. however we are still offering free API access for those who have a hard time setting it up. just join our Discord and the website will be available unfortunately we're not allowed to post that kind of website here I've already gotten warnings :)
