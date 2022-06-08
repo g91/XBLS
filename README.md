@@ -1,4 +1,4 @@
-# XBLS
+# XBLS the1Domo
 please enjoy the entire method.
 I hope this helps people
 
@@ -38,17 +38,16 @@ http://evilsource.net/Thread-0x50-Xbox-Live-lasting-method-ECC-stealth-server-AP
 
 some more fun information and please join in and discussions
 http://evilsource.net/Thread-100F0-at-the-dashboard
+http://evilsource.net/
+
 
 can you do me a favor and start spreading these posts around.
 maybe we can get more people on my forms talking and helping each other.
 
 
-
-
-
 again as I said in the email to Microsoft at Microsoft. if you randomize the salts, if you look at the Xebuild patches themselves and change functions. enough to break patterns. all of the important people in the community who could update this stuff is gone. so if you make actual changes and randomize salts these people are done. you can take your system back. the community has literally ran out all the intelligent people by attacking them insulting them and toxicity so if you make any actual changes at this point it's over for all of them, I mean you don't even really have to randomize this salts just change all of them.  I mean even changing the RSA data and is it for a lot of them. I know you guys know who I am and I know you can contact me I can give you a lot of other ideas that can stop. all of the modding on 360 as well as other people who I'm a sociated with can also give you good information. I know this because everyone I'm involved with. you have contacted already!!  or even better just shut 360 down for Xbox 360s like you did with the originals. 
 
-
+http://evilsource.net/
 
 
 
